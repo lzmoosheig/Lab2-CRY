@@ -1,0 +1,17 @@
+# Dans tout ce qui suit, les guillemets/apostrophes ne font pas partie des chaines de characteres. 
+Nom_Prenom="Zmoos_Léo"
+###### Mode opératoire
+m1 = b'This is a long enough test message to check that everything is working fine and it does. This algorithm is super secure and we will try to sell it soon to the Swiss governement.'
+c1 = b'U7sl/fEaFkZq9KiuOhRsPZXTSxKg341L+4LlyDBG2bdeVVegWf3NshUNATDy8AF4LyFIp54WaUkkjLt+MROQaUPqCGB26J4luCmFXHIpKP+RRcTF7AH9Ch8WjVUReE1KCsMmqsEthokZQUklyB7u/eizSoCvjVHslbqu/tyyuR09Nf4lWDLn+Q4ib7B5pGRdUktg4wbwALcbz9o3btwHLmbhNu5S/w39FX/1Z2XbNMdwt2HEC1awGKUbhY503pJaWUMjflvUillOay3zgpWang=='
+c2 = b'w3KYrI71uVBA3ah3f5OVDAUa9kPfMCJd0avlEXXBIIZeVVegWf3UshUKQDryoxR2OmQBp9FCZQEjivAtIBiEbwahXlFs9Mo+tCSQGW96buSfUI/F8UaxGQUMjgAcFSpp'
+###### Chiffrement authentifié
+m1 = b'ICRYInTheMorning'
+nonce1 = b'4jxXG6+qpWc/qmVO'
+c1 = b'M8Z6qSO9s+tDsgytAPKtYQ=='
+tag1 = b'SLqaOTO86RpUlv0/+u73gA=='
+nonce2 = b'BOQVAKOoO+YANkAs'
+c2 = b'y/g5o+7u5T0E1f+HfDQTSOv7MLCc9uPqSx8ShoN9BVU='
+tag2 = b'3rCXgXzAk/kfEDGaMrN2zA=='
+###### HMAC
+m = b'Sender: Alexandre Duc; Destination account 12-1234-12. Amount CHF123'
+mac = b'chURqiZrlZ3S3dxTt3M0XA=='
